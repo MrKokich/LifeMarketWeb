@@ -10,9 +10,11 @@ import MainPage from './components/MainPage/MainPage.jsx';
 
 ReactDOM.render(
     <LocaleProvider locale={ruRU}>
-        <App>
-            <MainPage/>
-        </App>
+        <div>
+            <App>
+                <MainPage/>
+            </App>
+        </div>
     </LocaleProvider>
     , document.getElementById('mount-point')
 );
